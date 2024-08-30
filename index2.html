@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="tit">
+        <img src="imagen/logo.png" alt="logo" class="logo">
+        <nav class="busqueda">Buscar</nav>
+        <i class="fa-solid fa-house" id="casa" onclick="casa()"></i>
+    </header>
+    <div class="form">
+        <h1>Contactanos</h1>
+        <div class="formm">
+            <label for="nombre"  class="aa">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" class="in"/>
+
+            <label for="apellido" class="aa">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" class="in"/>
+                <br>
+
+            <label for="rut" class="aa">RUT: </label>
+            <input type="number" id="rut" name="rut" class="in"/>
+
+            <label for="E-mail" class="aa">E-mail: </label>
+            <input type="text" id="E-mail" name="E-mail" class="in"/>
+                <br>
+            
+            <label for="motivo" class="aa">Motivo: </label>
+            <input type="text" id="motivo" name="motivo" class="in"/>
+                <br>
+            
+            <label for="comentario" class="aa">Comentario: </label>
+            <textarea id="comentario" name="comentario" rows="4" cols="30"class="ina"></textarea>
+            <br>
+            <button class="butt">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5fd2fec7d1.js" crossorigin="anonymous" ></script>
+</body>
+</html>

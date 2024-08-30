@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob Construye </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header class="tit">
+        <img src="imagen/logo.png" alt="logo" class="logo">
+        <input type="text" id="buscar" name="buscar" class="busqueda" placeholder="Buscar"/>
+        <i class="fa-regular fa-comment" id="coment" onclick="comenta()"></i>
+        <i class="fa-solid fa-calendar-days" id="calendario" onclick="calen()"></i>
+        <i class="fa-solid fa-user-group" id="conocenos" onclick="conoce()"></i>
+    </header>
+    <main class="box1">
+        <div class="cajamadre">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagen/ofert1.png" class="d-block w-100" alt="..."  id="foto1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/2.png" class="d-block w-100" alt="..." id="foto2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/3.png" class="d-block w-100" alt="..." id="foto3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>
+        <div class="cajamadre2">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="caja1" id="cajabor">
+                            <h2 class="prod">Productos Destacados</h2>
+                            <div class="caja2">
+                                <p>  Taladro inalámbrico percutor <br>10 mm 12V + 1 batería</p>
+                                <img src="imagen/w=1500,h=1500,fit=pad.avif" alt="" width="150" height="150px" class="i1">
+                                <p> 24.990</p>
+                                <button class="but">Ver Producto</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="caja1">
+                            <h2 class="prod">Productos Destacados</h2>
+                            <div class="caja2">
+                                <p> Taladro Inalámbrico Percutor 13 mm <br>20V+2 Baterías+100 Accesorios</p>
+                                <img src="imagen/w=1500,h=1500,fit=pad 3.avif" alt="" width="150" height="150px" class="i1">
+                                <p> 150.990</p>
+                                <button class="but">Ver Producto</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="caja1">
+                            <h2 class="prod">Productos Destacados</h2>
+                            <div class="caja2">
+                                <p> Motosierra 2 tiempos MS250 <br>18" 3,1 HP 45,4 cc</p>
+                                <img src="imagen/w=1500,h=1500,fit=pad 4.avif" alt="" width="150" height="150px" class="i1">
+                                <p> 424.990</p>
+                                <button class="but">Ver Producto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+    </main>
+    <div class="box2">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.7715503987683!2d-70.74489002468772!3d-33.40348229510772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c169b6fa339d%3A0xefa3c0abe023a29!2sAv.%20Miraflores%207161!5e1!3m2!1ses!2scl!4v1724804594147!5m2!1ses!2scl" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+            <div class="caja3">
+                <p>  Taladro + sierra circular + sierra <br> caladora + lijadora + bolso</p>
+                <img src="imagen/w=1500,h=1500,fit=pad 2.avif" alt="" width="150" height="150px" class="i1">
+                <p> 110.990</p>
+                <button class="but">Ver Producto</button>
+            </div>
+            <div class="caja4">
+                <p>  J15 Eléctrica Mástil Triple <br> 1500 Kgs</p>
+                <img src="imagen/j15-e1675859141938.png" alt="" width="150" height="150px" class="i1">
+                <p> $10.390.000 </p>
+                <button class="but">Ver Producto</button>
+            </div> 
+    </div>
+    <script src="https://kit.fontawesome.com/5fd2fec7d1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
